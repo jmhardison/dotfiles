@@ -1,0 +1,6 @@
+[user]
+        email = jonathan.hardison@banno.com
+        name = Jonathan Hardison
+        signingkey = 5CB770BF020E6336
+[commit]
+        gpgsign = true

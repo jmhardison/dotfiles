@@ -1,0 +1,6 @@
+[user]
+	email = jmh@jonathanhardison.com
+	name = Jonathan Hardison
+	signingkey = 5CB770BF020E6336
+[commit]
+	gpgsign = false
