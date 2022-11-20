@@ -1,0 +1,5 @@
+proof@ariadne.id=https://gist.github.com/jmhardison/cb3bfb5898efe2c89fc41927b9bc4fe6
+proof@ariadne.id=https://gitlab.com/jmhardison/gitlab_proof
+proof@ariadne.id=dns:jonathanhardison.com?type=TXT
+proof@ariadne.id=https://mastodon.social/@jhardison
+proof@ariadne.id=https://twitter.com/jhardison/status/1594209973084557312
