@@ -135,3 +135,5 @@ export PATH="$PATH:/home/jonathan/development/flutter/bin"
 export PATH="$PATH:/usr/local/go/bin"
 
 
+#istio
+export PATH=$HOME/.istioctl/bin:$PATH
