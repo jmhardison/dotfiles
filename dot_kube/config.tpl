@@ -1,18 +1,19 @@
 apiVersion: v1
 clusters:
 - cluster:
-    certificate-authority-data: op://home-net-secrets/microk8s-cluster/certificate-authority-data
-    server: op://home-net-secrets/microk8s-cluster/server
-  name: microk8s-cluster
+    certificate-authority-data: op://home-net-secrets/hhk8s-cluster/certificate-authority-data
+    server: op://home-net-secrets/hhk8s-cluster/server
+  name: hhk8s
 contexts:
 - context:
-    cluster: microk8s-cluster
-    user: op://home-net-secrets/microk8s-cluster/username
-  name: microk8s
-current-context: microk8s
+    cluster: hhk8s
+    user: kubernetes-admin
+  name: kubernetes-admin@kubernetes
+current-context: kubernetes-admin@kubernetes
 kind: Config
 preferences: {}
 users:
-- name: op://home-net-secrets/microk8s-cluster/username
+- name: op://home-net-secrets/hhk8s-cluster/username
   user:
-    token: op://home-net-secrets/microk8s-cluster/token
+    client-certificate-data: op://home-net-secrets/hhk8s-cluster/client-cert-data
+    client-key-data: op://home-net-secrets/hhk8s-cluster/client-key-data
