@@ -1,6 +1,14 @@
 [user]
 	email = jmh@jonathanhardison.com
 	name = Jonathan Hardison
-	signingkey = 5CB770BF020E6336
+#	signingkey = 5CB770BF020E6336 #old yubikey5
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOWVvuGlSqnIC0HYXFofxC+9DSMK7TQP8YdNKtGSVfyY
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/opt/1Password/op-ssh-sign"
+
 [commit]
-	gpgsign = true
+  gpgsign = true
