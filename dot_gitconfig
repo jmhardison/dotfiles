@@ -3,9 +3,15 @@
 
 [include]
 	path = ~/.gitconfig-default
+[includeIf "gitdir:/Users/jonathan/Library/Mobile Documents/com~apple~CloudDocs/src/personal/"]
+	path = ~/.gitconfig-personal
 [includeIf "gitdir:~/src/personal/"]
 	path = ~/.gitconfig-personal
+[includeIf "gitdir:/Users/jonathan/Library/Mobile Documents/com~apple~CloudDocs/src/work/"]
+	path = ~/.gitconfig-work
 [includeIf "gitdir:~/src/work/"]
 	path = ~/.gitconfig-work
+[includeIf "gitdir:/Users/jonathan/Library/Mobile Documents/com~apple~CloudDocs/src/wgu/"]
+	path = ~/.gitconfig-wgu
 [includeIf "gitdir:~/src/wgu/"]
 	path = ~/.gitconfig-wgu
